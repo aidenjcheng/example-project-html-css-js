@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+   rel="stylesheet"
+  />
+
+  <!--CSS-->
+
+  <link href="/src/style.css" rel="stylesheet" />
+
+  <!--Title-->
+  <title>Vite App</title>
+ </head>
+ <body>
+  <div>
+   <div>
+    <!--Intro-->
+    <h1>Hello World</h1>
+    <p>I'm a student at Pyle Middle School</p>
+    <!--Social links-->
+    <div>
+     <a href="mailto:175553@mcpsmd.net" target="_blank">Email me!</a>
+     <a href="http://github.com" target="_blank"> My Github!</a>
+    </div>
+    <!--Projects-->
+    <div>
+     <!--project card-->
+     <a href="./project_1.html">
+      <div>
+       <h3>Here are a list of my projects!</h3>
+       <img src="./placeholder.png" />
+       <h3>Project 1</h3>
+       <p>Project Description</p>
+      </div>
+     </a>
+     <div>
+      <img src="./placeholder.png" />
+      <h3>Project 2</h3>
+      <p>Project Description</p>
+     </div>
+
+     <!--email me!-->
+     <form id="email_form">
+      <label for="email">Type a message you want to send</label>
+      <input id="email" name="email" required />
+      <button type="submit">Send</button>
+     </form>
+     <div id="output"></div>
+    </div>
+   </div>
+  </div>
+ </body>
+ <script src="./src/main.js"></script>
+</html>

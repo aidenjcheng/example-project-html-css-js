@@ -1,0 +1,20 @@
+{
+  "name": "launchpad-example-project-html",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@radix-ui/colors": "^3.0.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/node": "^24.5.0",
+    "tailwindcss": "^4.1.13"
+  }
+}
