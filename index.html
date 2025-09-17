@@ -22,40 +22,42 @@
   <title>My Portfolio</title>
  </head>
  <body>
-   <div>
+   <div class=" max-w-xl mx-auto w-full flex flex-col items-start gap-4">
     <!--Intro-->
-    <h1>Hello World</h1>
-    <p>I like to code!</p>
+    <div class="flex flex-col gap-2">
+    <h1 class="text-xl font-medium mt-20">Hello World</h1>
+    <p class="text-gray-500">I like to code!</p>
+  </div>
     <!--Social links-->
-    <div>
-     <a href="mailto:175553@mcpsmd.net" target="_blank">Email me!</a>
-     <a href="http://github.com" target="_blank"> My Github!</a>
+    <div class="flex gap-2">
+     <a href="mailto:175553@mcpsmd.net" target="_blank" class="px-3 py-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-all duration-200 ease-in-out text-black">Email me!</a>
+     <a href="http://github.com" target="_blank" class="px-3 py-1 rounded-full bg-gray-100 hover:bg-gray-200 transition-all duration-200 ease-in-out text-black"> My Github!</a>
     </div>
     <!--Projects-->
     <div>
      <!--project card-->
-     <h3>Here are a list of my projects!</h3>
-
+     <h3 class="text-lg">Here are a list of my projects!</h3>
+<div class="flex gap-2 w-fit mt-4">
      <a href="./project_1.html">
-      <div>
-       <img src="./placeholder.svg" />
-       <h3>Project 1</h3>
-       <p>Project Description</p>
+      <div class="border-black/10 border rounded-lg  overflow-hidden  p-1.5">
+       <img src="https://placehold.co/300x200" class="rounded-md border border-black/10" />
+       <h3 class="mt-2">Project 1</h3>
+       <p class="text-gray-500">Project Description</p>
       </div>
      </a>
      <a href="./project_2.html">
-     <div>
-      <img src="./placeholder.svg" />
-      <h3>Project 2</h3>
-      <p>Project Description</p>
+      <div class="border-black/10 border rounded-lg  overflow-hidden p-1.5">
+        <img src="https://placehold.co/300x200" class="rounded-md border border-black/10" />
+        <h3 class="mt-2">Project 2</h3>
+      <p class="text-gray-500">Project Description</p>
      </div>
      </a>
-
+</div>
      <!--email me!-->
-     <form id="email_form">
+     <form id="email_form" class="flex flex-col gap-2 mt-10">
       <label for="email">Type a message you want to send</label>
-      <input id="email" name="email" required />
-      <button type="submit">Send</button>
+      <input id="email" name="email" required class="border border-black/10 rounded-md p-2 w-fit" />
+      <button type="submit" class="px-4 py-1 rounded-full border bg-black hover:opacity-80 transition-all duration-200 ease-in-out text-white w-fit" >Send</button>
      </form>
      <div id="output"></div>
     </div>
